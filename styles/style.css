@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --font-unica: "Inter", sans-serif;
+    --font-forte: 700;
+    --font-fraca: 400;
+
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #495057;
+    --cor-quartenaria: #ffffff;
+}
+
+*{
+    width: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+.cabecalho {
+    display: flex;
+    padding-left: 120px;
+}
+
+.caebcalho__logo {
+    width: 1.94rem;
+    height: 48px;
+    
+    
+    
+    
+
+}
+
+.area__criptografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px, 20px;
+    width: 90rem;
+    height: 64rem;
+    row-gap: 12px;
+}
+
+.area__criptografia__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.texto__area {
+    width: 42,5rem;
+    height: 3rem;
+    background-color: var(--cor-primaria);
+}
+
+.informacoes_criptografia {
+    width: 25rem;
+    height: auto;
+    border: 1px solid var(--cor-quartenaria);
+    border-radius: 32px;
+    background-color: var(--cor-quartenaria);
+    display: flex;
+    margin-left: 660px;
+    padding-top: 286px;
+
+}
+
+
+p{
+   font-family: var(--font-fraca);
+   width: var(--font-fraca);
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    width: 88rem;
+    padding: 8px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-quartenaria);
+}
+
+.rodape a {
+    text-decoration: none;
+    color: var(--cor-quartenaria)
+}
